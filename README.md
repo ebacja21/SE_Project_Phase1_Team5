@@ -113,7 +113,7 @@ Database: Wix's integrated database solution for storing user data, bookings, an
 Third-Party Integrations: Payment gateways (e.g., PayPal, Stripe) for secure payment processing, Google Maps for location services, and email services for communication.
 ![p1](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/c55e6342-853e-4cb1-81ff-4c0546b1cfd6)
 
-b. Database Model:
+# b. Database Model:
 ---User Information Collection:
 ![p2](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/987d493d-334c-40c9-a5f9-d4fb2f725f0d)
 
@@ -134,7 +134,7 @@ Constraints: Room ID: Unique, Required. Room Type, Price per Night: Required.
 
 Constraints: Page ID: Unique, Required. Page Name: Required. Summary: The database model in Wix's collections-based structure includes collections for User Information, Booking Information, Room Information, Activity Listings, and Site Content. Relationships are established using references between collections (e.g., User ID in Booking Information references User Information). Each collection has unique constraints and required fields to ensure data integrity and structured data management within Wix's platform. 
 
-c. Technologies Used:
+# c. Technologies Used:
 Wix Platform: The core technology used for developing and hosting the hotel booking website. Wix provides a user-friendly drag-and-drop interface, integrated database, and various design tools.
 
 Wix Editor: Utilized for designing and customizing the website's layout, content, and visual elements. It allows for easy manipulation of site components without coding knowledge. 
@@ -154,80 +154,145 @@ Compatibility: Wix supports responsive design, ensuring that the website is comp
 Security: Wix provides built-in security features such as SSL certification, data encryption, and regular updates to protect against vulnerabilities and ensure data privacy. d. Interface Design:
 
 Homepage: 
+<img width="932" alt="p6" src="https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/6a1a1e35-b24d-4393-8b1c-e9e745f1be62">
 
 Attractive Banner: A visually appealing banner at the top featuring the hotel's name, a beautiful image of the property, and a call-to-action button for booking. Navigation Menu: Clear and intuitive navigation menu with links to Home, About Us, Activities, Book a Room, and Contact pages for easy access. Search Bar: Prominent search bar allowing users to check availability, select dates, and view room options directly from the homepage. Featured Rooms Section: Highlighted section showcasing popular rooms with images, descriptions, and pricing details.
 
 About Us Page:
+<img width="950" alt="p7" src="https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/8463ae92-49a4-4af8-b18f-cb6ad9fe62c2">
 
 Hotel Description: Detailed information about the hotel, including its history, amenities, services, and guest testimonials. Team Section: Introduction to key team members such as the hotel manager, concierge, and chefs, with photos and brief bios.
 
 Activities Page:
+<img width="925" alt="p9" src="https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/0eadf5fd-ff52-4db8-bc73-fb915fbf9079">
 
 Activity Listings: Grid or list view of available activities, including descriptions, duration, pricing, and booking options. Image Gallery: Visual showcase of past activities and events to entice users to explore and participate.
 
 Book a Room Page:
-
-Room Selection: Display of room options with images, descriptions, amenities, and pricing per night. Booking Form: User-friendly form for entering check-in/out dates, selecting room preferences, and providing payment details (credit card or PayPal).
+<img width="960" alt="p10" src="https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/a88a1f2d-9410-4117-a567-5f0930750126">
+<img width="433" alt="p13" src="https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/f8c0d28d-565c-48e6-9900-9b4d02cdece0">
+<img width="433" alt="p13" src="https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/a5a265eb-8382-40c3-804f-7370884395d0">
+<img width="956" alt="p12" src="https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/65600952-7d90-4976-a123-3e193d5e2a7e">
+Room Selection: Display of room options with images, descriptions, amenities, and pricing per night. 
+Booking Form: User-friendly form for entering check-in/out dates, selecting room preferences, and providing payment details (credit card or PayPal).
 
 Contact Page:
+<img width="733" alt="p14" src="https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/9ff6046e-2c00-440f-9271-160fbfb90378">
 
 Contact Information: Hotel's contact details, including email, phone number, and address. Inquiry Form: Form for users to send inquiries, requests, or feedback directly to the hotel's staff for assistance. Google Maps Integration: Embedded map showing the hotel's location for easy navigation.
 
 Design Elements: 
 Modern and Elegant Design: Utilize contemporary design elements, high-quality images, and subtle animations to create a visually appealing interface. 
+
 Responsive Layout: Ensure the design is responsive and adapts seamlessly to different devices, including desktops, tablets, and smartphones. 
+
 User-Friendly Navigation: Prioritize intuitive navigation, clear call-to-action buttons, and easy-to-use forms to enhance user experience and encourage bookings. 
-e. Security Measures for Wix Platform: SSL Encryption: Utilize Wix's built-in SSL encryption to secure data transmission between users' browsers and your website, ensuring that sensitive information such as payment details and personal data is protected. Data Encryption: Leverage Wix's data encryption protocols to safeguard stored data within the platform, including user credentials, booking information, and payment records, maintaining confidentiality and security.
+
+# e. Security Measures for Wix Platform:
+SSL Encryption: Utilize Wix's built-in SSL encryption to secure data transmission between users' browsers and your website, ensuring that sensitive information such as payment details and personal data is protected. Data Encryption: Leverage Wix's data encryption protocols to safeguard stored data within the platform, including user credentials, booking information, and payment records, maintaining confidentiality and security.
+
 Secure Payment Gateway Integration: Integrate secure payment gateways provided by Wix, such as Wix Payments or other trusted payment processors, to ensure secure and compliant payment processing for users.
 Regular Updates: Take advantage of Wix's automatic updates and security patches to keep your website's software, plugins, and integrations up to date, reducing vulnerabilities and enhancing security.
+
 User Authentication: Utilize Wix's authentication features, such as password protection and account verification, to authenticate users and prevent unauthorized access to sensitive areas of the website.
+
 Firewall Protection: Benefit from Wix's built-in firewall protection and network security measures to monitor and filter incoming traffic, protecting against malicious attacks and unauthorized access attempts. Data Backup: Use Wix's backup and restore features to regularly back up your website's data, ensuring data integrity and enabling quick recovery in case of data loss or system failures
 
-SE_Project_Phase3_Team5
+# SE_Project_Phase3_Team5
 Phase III: Software Design and Modeling Deadline: April 1st, 2024, 23:59 1.Software Architecture
-a)System Architecture:
-User Interface (UI): The UI component in Wix presents the website's interface to users, showcasing available rooms, activities, and booking options.It interacts seamlessly with Wix's drag-and-drop editor and pre-designed templates to create a visually appealing and user-friendly experience. 
+# a)System Architecture:
+
+User Interface (UI): The UI component in Wix presents the website's interface to users, showcasing available rooms, activities, and booking options.It interacts seamlessly with Wix's drag-and-drop editor and pre-designed templates to create a visually appealing and user-friendly experience.
+
 Backend Services (Wix APIs and Functions):
 Wix's backend services, including APIs and Functions, handle the core functionality of the website, such as user authentication, booking processing, and data management.These services leverage Wix's platform capabilities to manage user data, process bookings, and integrate with external services like payment gateways.
-Database (Wix Database Collections): The Database component in Wix, managed through Database Collections, stores structured data related to users, bookings, rooms, and activities.It works seamlessly with Backend Services to store and retrieve data, ensuring real-time updates and accurate information for users. 
-Payment Gateway Integration (Wix Payment Solutions): Wix's Payment Solutions integrate with external payment gateways, providing secure payment processing for bookings made on the website.This integration ensures smooth payment transactions and updates booking records in real time, enhancing the user experience. 
+
+Database (Wix Database Collections):
+The Database component in Wix, managed through Database Collections, stores structured data related to users, bookings, rooms, and activities.It works seamlessly with Backend Services to store and retrieve data, ensuring real-time updates and accurate information for users. 
+
+Payment Gateway Integration (Wix Payment Solutions):
+Wix's Payment Solutions integrate with external payment gateways, providing secure payment processing for bookings made on the website.This integration ensures smooth payment transactions and updates booking records in real time, enhancing the user experience. 
+
 External APIs and Wix App Market Integrations: External APIs and Wix App Market integrations enhance the website's functionality by providing additional services such as location-based features and third-party integrations.These integrations communicate with Backend Services to fetch external data and incorporate it seamlessly into the website's features.
+
 Admin Panel (Wix Dashboard): The Admin Panel, accessible through the Wix Dashboard, provides administrators with tools to manage website content, user accounts, bookings, and other administrative tasks. It integrates with Backend Services to perform data management operations, update website content, and monitor system activities, all within the Wix platform environment. This system architecture leverages Wix's robust platform capabilities, including drag-and-drop UI design, backend services, database management, payment solutions, external integrations, and administrative tools, to create a fully functional and user-friendly hotel booking website.
 
-b)Component Diagram:
-2.Detailed Design a)Class Diagram:
-User Class: Attributes: None (No username or password required for customers)
-Methods: None (Not applicable for customers) Booking Class: Attributes: bookingID, roomID, checkInDate, checkOutDate Methods: createBooking(), cancelBooking(), getBookingDetails() 
+# b)Component Diagram:
+![p15](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/61ccc8a0-e227-4d66-9006-e5159fe786c7)
+
+# 2.Detailed Design
+# a)Class Diagram:
+![p16](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/ae94996c-a55f-4eaf-91cc-d5f6c2483417)
+
+User Class: 
+Attributes: None (No username or password required for customers)
+Methods: None (Not applicable for customers)
+Booking Class: Attributes: bookingID, roomID, checkInDate, checkOutDate Methods: createBooking(), cancelBooking(), getBookingDetails() 
 Room Class: Attributes: roomID, roomType, price, availability Methods: checkAvailability(), bookRoom(), updateRoomDetails() Payment Class: Attributes: paymentID, amount, paymentStatus Methods: processPayment(), updatePaymentStatus() 
-Admin Class: Attributes: adminID, username, email Methods: login(), manageBookings(), manageRooms(), manageActivities() RELATIONSHIPS User-Booking: One user can have multiple bookings (1-to-many).
+Admin Class: Attributes: adminID, username, email Methods: login(), manageBookings(), manageRooms(), manageActivities() 
+
+RELATIONSHIPS User-Booking: One user can have multiple bookings (1-to-many).
 Booking-Room: One booking is associated with one room (1-to-1). 
 Payment-Booking: One payment corresponds to one booking (1-to-1). 
 Admin-Booking: An admin can manage multiple bookings (1-to-many). 
 Admin-Room: An admin can manage multiple rooms (1-to-many). 
 Admin-Activity: An admin can manage multiple activities (1-to-many).
 
-b)Sequence Diagrams:
+# b)Sequence Diagrams:
+![p17](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/43576eb6-f1e6-456a-8a9d-9f17b2a99ba3)
 
-c)Database Design: Room table
+
+# c)Database Design: 
+Room table
+![p18](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/53194c08-7c78-481a-a881-32768661edd6)
 
 Booking Table
+![p19](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/cb215c27-4cca-48dc-95da-92468b8dff91)
+
 
 Payment table
+![p20](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/f6c7e49b-7ef1-45a2-835c-466bfab91762)
 
-Room Table and Booking Table Relationship: Relationship: One-to-Many Description: Each room in the Room Table can have multiple bookings in the Booking Table. This relationship is established using the roomID field in the Booking Table, which acts as a foreign key referencing the roomID primary key in the Room Table. Booking Table and Payment Table Relationship: Relationship: One-to-One Description: Each booking in the Booking Table has one corresponding payment in the Payment Table. This relationship is established using the bookingID field, which acts as a foreign key referencing the bookingID primary key in the Booking Table. Efficient Data Organization:
 
-Normalization: The data is organized into separate tables (Room Table, Booking Table, Payment Table) to avoid data redundancy and ensure data integrity. Relationships: The use of foreign keys establishes relationships between tables, ensuring data consistency and enabling efficient querying of related data. Indexing: Primary and foreign keys are indexed to optimize data retrieval speed and enforce referential integrity. Data Types: Appropriate data types are used for each field to minimize storage space and improve data accuracy. Overall, the database design ensures efficient data organization, maintains data integrity through relationships, and optimizes data storage and retrieval for effective management of rooms, bookings, and payments in the hotel booking system on the Wix platform. 3.Modeling a)Case Diagram:
+Room Table and Booking Table Relationship:
+Relationship: One-to-Many Description: Each room in the Room Table can have multiple bookings in the Booking Table. This relationship is established using the roomID field in the Booking Table, which acts as a foreign key referencing the roomID primary key in the Room Table. 
+
+Booking Table and Payment Table Relationship:
+Relationship: One-to-One Description: Each booking in the Booking Table has one corresponding payment in the Payment Table. This relationship is established using the bookingID field, which acts as a foreign key referencing the bookingID primary key in the Booking Table. Efficient Data Organization:
+
+Normalization: The data is organized into separate tables (Room Table, Booking Table, Payment Table) to avoid data redundancy and ensure data integrity.
+Relationships: The use of foreign keys establishes relationships between tables, ensuring data consistency and enabling efficient querying of related data. 
+Indexing: Primary and foreign keys are indexed to optimize data retrieval speed and enforce referential integrity. 
+Data Types: Appropriate data types are used for each field to minimize storage space and improve data accuracy. Overall, the database design ensures efficient data organization, maintains data integrity through relationships, and optimizes data storage and retrieval for effective management of rooms, bookings, and payments in the hotel booking system on the Wix platform.
+
+# 3.Modeling 
+# a)Case Diagram:
+![p21](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/0b513913-5b49-4945-83ad-179f16d1c987)
+
 
 b)Activity Diagrams:
+![p22](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/8ae67afd-2041-48b3-89c2-ba74e338856b)
+
 
 c)State Diagrams:
+![p23](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/7b0b8912-281c-4afd-bd10-9b0926cf9f4d)
 
-Description of the diagram States: Search State:
 
-Description: Initial state when a customer starts searching for rooms. Transitions: Transition to "Results State" upon entering search criteria. Transition to "No Results State" if no rooms match the search criteria. Results State: Description: State where available rooms matching the search criteria are displayed. Transitions: Transition to "Room Selected State" upon customer selection of a room. Transition to "Search State" if the customer modifies the search criteria. Room Selected State: Description: State when a customer has selected a room for reservation. Transitions: Transition to "Reservation State" upon confirmation of reservation details. Transition to "Results State" if the customer cancels room selection. Reservation State: Description: State after the customer confirms the room reservation. Transitions: Transition to "Payment State" upon initiation of the payment process. Transition to "Room Selected State" if the customer modifies the reservation. Payment State: Description: State when the customer is making the payment for the reservation. Transitions: Transition to "Payment Success State" upon successful payment confirmation. Transition to "Reservation State" if the payment process is canceled or fails. Payment Success State: Description: State indicating successful completion of the payment process. Transition: Transition to "Booking Confirmed State" upon successful payment confirmation. Booking Confirmed State: Description: Final state confirming the booking is successfully completed. No further transitions
+# Description of the diagram States:
+Search State:
 
-SE_Project_Phase4_Team5
-Phase IV Testing Hotel Seaside Seaside B&B (rapojulio1.wixsite.com) During Phase 4, we have been focusing on testing our hotel booking website using manual methods due to the constraints of the Wix platform, which lacks direct access to code. While this presents challenges, we remain committed to ensuring the functionality and user experience meet our standards. Manual testing allows us to thoroughly examine each aspect of the website, including navigation, booking processes, payment gateways, and overall performance. By doing so, we aim to identify any potential issues or areas for improvement before deployment. 1.Testing of Payment with Paypal https://youtu.be/8H-fGjyexsg?si=1e53bjh_SRlJG1fA Information received in Wix booking system
+Description: Initial state when a customer starts searching for rooms. Transitions: Transition to "Results State" upon entering search criteria. Transition to "No Results State" if no rooms match the search criteria. Results State: Description: State where available rooms matching the search criteria are displayed. Transitions: Transition to "Room Selected State" upon customer selection of a room. Transition to "Search State" if the customer modifies the search criteria. Room Selected State: Description: State when a customer has selected a room for reservation. Transitions: Transition to "Reservation State" upon confirmation of reservation details. Transition to "Results State" if the customer cancels room selection. 
+
+Reservation State: Description: State after the customer confirms the room reservation. Transitions: Transition to "Payment State" upon initiation of the payment process. Transition to "Room Selected State" if the customer modifies the reservation. Payment State: Description: State when the customer is making the payment for the reservation. Transitions: Transition to "Payment Success State" upon successful payment confirmation. Transition to "Reservation State" if the payment process is canceled or fails.
+
+Payment Success State: Description: State indicating successful completion of the payment process. Transition: Transition to "Booking Confirmed State" upon successful payment confirmation. Booking Confirmed State: Description: Final state confirming the booking is successfully completed. No further transitions
+
+# SE_Project_Phase4_Team5
+Phase IV Testing Hotel Seaside Seaside B&B (rapojulio1.wixsite.com)
+
+# During Phase 4, we have been focusing on testing our hotel booking website using manual methods due to the constraints of the Wix platform, which lacks direct access to code. While this presents challenges, we remain committed to ensuring the functionality and user experience meet our standards. Manual testing allows us to thoroughly examine each aspect of the website, including navigation, booking processes, payment gateways, and overall performance. By doing so, we aim to identify any potential issues or areas for improvement before deployment.
+
+1.Testing of Payment with Paypal https://youtu.be/8H-fGjyexsg?si=1e53bjh_SRlJG1fA Information received in Wix booking system
 
 2.Test of Search Widget Objective: To verify that users can search for available rooms and dates directly from the home page using the search widget bar. Steps: 1.Go to the home page. 2.Enter check-in and check-out dates, and select the number of rooms. 3.Initiate the search.
 
