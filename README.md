@@ -46,23 +46,36 @@ Agile We've chosen to follow the Agile development model for our hotel booking w
 # User Requirements:
 # a. Stakeholders: 
 End-users: These are the guests who will use the hotel booking website created using Wix to make reservations and manage their bookings. They want a user-friendly interface, accurate information about the hotel, an easy booking process, secure payment options, and responsive customer support.
+
 Hotel Management (Client): This includes the hotel owners or managers who use the Wix platform to list their property on the website. They are responsible for providing detailed hotel information, managing room availability, setting pricing and policies, and handling booking inquiries.
+
 Developers (Enea Bacja): As the Frontend Developer using Wix's drag-and-drop tools, Enea Bacja focuses on creating a visually appealing and intuitive user interface for the hotel booking website. This includes designing layouts, navigation menus, booking forms, and ensuring mobile responsiveness. As the Backend Developer, Enea Bacja leverages Wix's backend functionalities to integrate databases, handle user data securely, and implement features such as payment gateways and booking management systems. 
+
 Project Manager/Coordinator (Mattheos Korreshi): Mattheos Korreshi oversees the project on the Wix platform, including planning features and functionalities using Wix's built-in tools, scheduling development tasks, and ensuring timely delivery within Wix's framework. He coordinate efforts between developers, the database administrator, customer support representative, and legal/compliance officer within the capabilities of Wix's platform to ensure a cohesive and efficient development process.
+
 Database Administrator (Julian Rapo) Julian Rapo manages the database aspects within Wix's environment, ensuring data integrity, security, and efficient data handling using Wix's database features and integrations. 
+
 Customer Support Representative (Bjorn Varrosi): Bjorn Varrosi is responsible for providing customer support tailored to the functionalities and features available on the Wix platform. This includes assisting users with navigating the website, resolving technical issues within Wix's framework, ensuring a positive user experience, and contacting the hotel manager or owner to address specific inquiries or support needs related to the hotel booking website. 
+
 Legal/Compliance Officer (Klevis Kosiqi): Klevis Kosiqi ensures that the hotel booking website built on the Wix platform complies with legal requirements, data protection regulations, privacy policies, and industry standards within Wix's framework. They review and customize Wix's terms of service, privacy policies, and data handling practices to align with legal and regulatory guidelines. Each stakeholder's role is essential in leveraging Wix's capabilities to create and maintain a successful hotel booking website that meets user expectations, legal standards, and business goals within the Wix environment.
 
-# b) User Requirments End-user Booking Experience:
+# b) User Requirments End-user 
+Booking Experience:
 User Type: End-user (Guest) 
 Requirement: As an end-user, I want to be able to easily search for hotels based on location, dates, and amenities, view detailed information about each hotel, and book a room securely. Benefit: This feature provides a seamless booking experience for guests, allowing them to find and book the right hotel quickly and efficiently, leading to increased user satisfaction and booking conversions. 
+
 User Type: Hotel Management (Client)
 Requirement: As a hotel manager, I want a dashboard where I can manage room availability, update pricing and policies, view booking analytics, and communicate with guests. Benefit: This dashboard streamlines hotel management tasks, improves decision-making with analytics, and enhances communication with guests, leading to better operational efficiency and guest satisfaction.
+
 Mobile-Friendly Interface:
 User Type: End-user (Guest)
-Requirement: As an end-user, I want the website to be mobile-friendly, allowing me to browse, book, and manage my bookings conveniently from my smartphone or tablet. Benefit: A mobile-friendly interface improves accessibility for users on the go, enhances user experience, and expands the reach of the website to mobile users, increasing engagement and bookings. Customer Support Integration: 
+Requirement: As an end-user, I want the website to be mobile-friendly, allowing me to browse, book, and manage my bookings conveniently from my smartphone or tablet. Benefit: A mobile-friendly interface improves accessibility for users on the go, enhances user experience, and expands the reach of the website to mobile users, increasing engagement and bookings. 
+
+Customer Support Integration: 
 User Type: End-user (Guest)
-Requirement: As an end-user, I want access to customer support directly from the website, where I can get assistance with bookings, inquiries, and technical issues. Benefit: Integrating customer support on the website enhances user experience by providing immediate assistance, resolving issues efficiently, and building trust and confidence in the booking process. Secure Payment Processing:
+Requirement: As an end-user, I want access to customer support directly from the website, where I can get assistance with bookings, inquiries, and technical issues. Benefit: Integrating customer support on the website enhances user experience by providing immediate assistance, resolving issues efficiently, and building trust and confidence in the booking process. 
+
+Secure Payment Processing:
 User Type:
 End-user (Guest) Requirement: As an end-user, I want secure and reliable payment processing, supporting various payment methods and ensuring my financial information is protected. Benefit: Secure payment processing instills confidence in users, reduces payment errors or fraud, and encourages more bookings, contributing to a smooth and trustworthy booking experience.
 
@@ -98,31 +111,46 @@ The key components include: Frontend Components: HTML, CSS, JavaScript, and Wix'
 Backend Components: Wix Code (Corvid), which allows for server-side scripting and database interactions within Wix's ecosystem. 
 Database: Wix's integrated database solution for storing user data, bookings, and other information securely. 
 Third-Party Integrations: Payment gateways (e.g., PayPal, Stripe) for secure payment processing, Google Maps for location services, and email services for communication.
+![p1](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/c55e6342-853e-4cb1-81ff-4c0546b1cfd6)
 
-# <img width="390" alt="Capture PNG8" src="https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/256bd2c5-c0bd-4c00-ba60-fc271daeda82">
-b. Database Model: ---User Information Collection:
+b. Database Model:
+---User Information Collection:
+![p2](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/987d493d-334c-40c9-a5f9-d4fb2f725f0d)
 
-Relationships: One-to-many relationship between User Information and Booking Information (User ID in Booking Information references User ID in User Information). Constraints: User ID: Unique, Required. Name, Email: Required. ---Booking Information Collection:
+Relationships: One-to-many relationship between User Information and Booking Information (User ID in Booking Information references User ID in User Information). Constraints: User ID: Unique, Required. Name, Email: Required. 
+---Booking Information Collection:
+![p3](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/81221eb1-f05d-4a40-9041-7525de95c8e0)
 
 Relationships:
 
 One-to-many relationship between Booking Information and User Information (User ID in Booking Information references User ID in User Information). One-to-one relationship between Booking Information and Room Information (Room ID in Booking Information references Room ID in Room Information). Constraints: Booking ID: Unique, Required. User ID, Room ID, Check-in Date, Check-out Date: Required.
 
 ---Room Information Collection:
+![p4](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/aee63076-f976-4fc1-8c5b-f1acd604aef8)
+Constraints: Room ID: Unique, Required. Room Type, Price per Night: Required.
 
-Constraints: Room ID: Unique, Required. Room Type, Price per Night: Required. ---Site Content Collection:
+---Site Content Collection:
+![p5](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/18136309-87de-4a33-9c7e-bce746f37a7e)
 
 Constraints: Page ID: Unique, Required. Page Name: Required. Summary: The database model in Wix's collections-based structure includes collections for User Information, Booking Information, Room Information, Activity Listings, and Site Content. Relationships are established using references between collections (e.g., User ID in Booking Information references User Information). Each collection has unique constraints and required fields to ensure data integrity and structured data management within Wix's platform. 
 
 c. Technologies Used:
 Wix Platform: The core technology used for developing and hosting the hotel booking website. Wix provides a user-friendly drag-and-drop interface, integrated database, and various design tools.
+
 Wix Editor: Utilized for designing and customizing the website's layout, content, and visual elements. It allows for easy manipulation of site components without coding knowledge. 
+
 Wix Code: Enables the integration of dynamic functionality using JavaScript. Custom code snippets can be added to enhance user interactions, data processing, and form validations. 
+
 Wix App Market: Access to a range of third-party apps and extensions for extending the website's capabilities. This includes integrations for payment gateways, booking systems, analytics tools, and more. 
+
 Reasoning: User-Friendly Interface: Wix's drag-and-drop editor simplifies the website development process, making it accessible for users without extensive technical skills. 
+
 Integrated Database: Wix's built-in database system facilitates data management, user authentication, and dynamic content delivery without requiring separate backend infrastructure. 
+
 Scalability: Wix's platform is designed to handle scalability, ensuring that the website can accommodate increasing traffic and functionality as the business grows.
+
 Compatibility: Wix supports responsive design, ensuring that the website is compatible with various devices and screen sizes, enhancing user experience across platforms. 
+
 Security: Wix provides built-in security features such as SSL certification, data encryption, and regular updates to protect against vulnerabilities and ensure data privacy. d. Interface Design:
 
 Homepage: 
