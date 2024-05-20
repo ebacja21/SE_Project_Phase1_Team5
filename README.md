@@ -1,5 +1,7 @@
 # SE_Project_Phase1_Team5
 SE_Project_Phase1_Team5
+Deadline :
+Submission deadline for Phase 1 : 04.03.2024, 23:59 hours.
 Software Engineering
 BINF III-B
 
@@ -20,28 +22,29 @@ Mattheos Korreshi - Project Manager/Coordinator
 Julian Rapo - Database Administrator
 Klevis Kosiqi- Legal/Compliance Officer
 
-Problem Identification : 
+# Problem Identification : 
 The hotel website project aims to address the issue of accurately calculating booking fees across various platforms such as Booking.com and Airbnb. Unlike these platforms where users are typically charged additional fees, the proposed website will not apply any fees to bookings. This eliminates the need for users to navigate through fee structures and ensures transparency in pricing. By providing a fee-free booking experience, the website seeks to streamline the reservation process and enhance customer satisfaction.
 
-Solution Proposal :
+# Solution Proposal :
 Make the hotel website simple: no extra fees for bookings, use computers to calculate costs automatically, connect to safe ways to pay online, show customers exactly what they’re paying for, change prices based on how many people want to book, and look at data to see how things are going. 
 
 
-Project Scope : 
+# Project Scope : 
  The hotel website project aims to develop a user-friendly booking system that eliminates additional fees for reservations. It will include features such as automated fee calculation based on factors like stay duration and room type, integration with secure payment gateways, transparent display of costs, dynamic pricing management to adjust rates according to demand, and data analytics tools for tracking booking trends. The project will also involve designing an intuitive interface, rigorous testing to ensure functionality and security, and ongoing maintenance post-deployment.
 
-Project Aim :
+# Project Aim :
 The website will  develop a user-friendly website for hotel reservations that provides an intuitive booking experience for guests.
-Deadline :
-Submission deadline for Phase 1 : 04.03.2024, 23:59 hours.
 
-SE_Project_Phase2_Team5
+
+
+# SE_Project_Phase2_Team5
 Phase II: User Requirements and Application Specifications Submission Deadline: 18.03.2024, 23:59
 
-Chosen Development Model: Agile We've chosen to follow the Agile development model for our hotel booking website project, especially since we're using the Wix platform. Agile is like having a flexible approach that fits well with Wix's easy-to-use tools. It allows us to make changes and improvements to our website iteratively, which means we can adjust things as we learn more about what our users need. One of the key reasons for choosing Agile is its flexibility and adaptability to changes in project requirements. With Agile, we can respond quickly to new ideas, feedback from users, or changes in the market without disrupting the entire development process. This ensures that our website remains dynamic and responsive, meeting the evolving needs of our users and staying competitive in the online booking industry.
+# Chosen Development Model:
+Agile We've chosen to follow the Agile development model for our hotel booking website project, especially since we're using the Wix platform. Agile is like having a flexible approach that fits well with Wix's easy-to-use tools. It allows us to make changes and improvements to our website iteratively, which means we can adjust things as we learn more about what our users need. One of the key reasons for choosing Agile is its flexibility and adaptability to changes in project requirements. With Agile, we can respond quickly to new ideas, feedback from users, or changes in the market without disrupting the entire development process. This ensures that our website remains dynamic and responsive, meeting the evolving needs of our users and staying competitive in the online booking industry.
 
-User Requirements:
-a. Stakeholders: 
+# User Requirements:
+# a. Stakeholders: 
 End-users: These are the guests who will use the hotel booking website created using Wix to make reservations and manage their bookings. They want a user-friendly interface, accurate information about the hotel, an easy booking process, secure payment options, and responsive customer support.
 Hotel Management (Client): This includes the hotel owners or managers who use the Wix platform to list their property on the website. They are responsible for providing detailed hotel information, managing room availability, setting pricing and policies, and handling booking inquiries.
 Developers (Enea Bacja): As the Frontend Developer using Wix's drag-and-drop tools, Enea Bacja focuses on creating a visually appealing and intuitive user interface for the hotel booking website. This includes designing layouts, navigation menus, booking forms, and ensuring mobile responsiveness. As the Backend Developer, Enea Bacja leverages Wix's backend functionalities to integrate databases, handle user data securely, and implement features such as payment gateways and booking management systems. 
@@ -50,7 +53,7 @@ Database Administrator (Julian Rapo) Julian Rapo manages the database aspects wi
 Customer Support Representative (Bjorn Varrosi): Bjorn Varrosi is responsible for providing customer support tailored to the functionalities and features available on the Wix platform. This includes assisting users with navigating the website, resolving technical issues within Wix's framework, ensuring a positive user experience, and contacting the hotel manager or owner to address specific inquiries or support needs related to the hotel booking website. 
 Legal/Compliance Officer (Klevis Kosiqi): Klevis Kosiqi ensures that the hotel booking website built on the Wix platform complies with legal requirements, data protection regulations, privacy policies, and industry standards within Wix's framework. They review and customize Wix's terms of service, privacy policies, and data handling practices to align with legal and regulatory guidelines. Each stakeholder's role is essential in leveraging Wix's capabilities to create and maintain a successful hotel booking website that meets user expectations, legal standards, and business goals within the Wix environment.
 
-b) User Requirments End-user Booking Experience:
+# b) User Requirments End-user Booking Experience:
 User Type: End-user (Guest) 
 Requirement: As an end-user, I want to be able to easily search for hotels based on location, dates, and amenities, view detailed information about each hotel, and book a room securely. Benefit: This feature provides a seamless booking experience for guests, allowing them to find and book the right hotel quickly and efficiently, leading to increased user satisfaction and booking conversions. 
 User Type: Hotel Management (Client)
@@ -63,36 +66,40 @@ Requirement: As an end-user, I want access to customer support directly from the
 User Type:
 End-user (Guest) Requirement: As an end-user, I want secure and reliable payment processing, supporting various payment methods and ensuring my financial information is protected. Benefit: Secure payment processing instills confidence in users, reduces payment errors or fraud, and encourages more bookings, contributing to a smooth and trustworthy booking experience.
 
-3)Functional Requirements:
-a. Brief Description:
+# 3)Functional Requirements:
+# a. Brief Description:
 ---Home Page: Display a welcome message, brief descriptions of rooms, activities, and locations. Include a small toolbar for checking available dates, rooms, and making bookings directly.
 ---About Us Page: Provide a detailed description of the hotel, its history, amenities, and services. 
 ---Activities Page: Describe the various activities offered by the hotel, such as spa services, tours, or recreational facilities.
 ---Book a Room Page: Allow customers to view available rooms, check pricing, select dates, enter guest details, and make bookings online. Support payments via credit card and PayPal. 
----Contact Page: Provide contact information (email address) and a contact form for users to reach out to the hotel. Display the location using Google Maps for easy navigation. b. Acceptance Criteria: ---Home Page: Welcome message and brief descriptions are visible. Toolbar allows users to check available dates, rooms, and make bookings. Booking process is smooth and secure. 
+---Contact Page: Provide contact information (email address) and a contact form for users to reach out to the hotel. Display the location using Google Maps for easy navigation.
+# b. Acceptance Criteria:
+---Home Page: Welcome message and brief descriptions are visible. Toolbar allows users to check available dates, rooms, and make bookings. Booking process is smooth and secure. 
 ---About Us Page: Detailed information about the hotel is provided. Includes history, amenities, services, and any unique selling points. 
 ---Activities Page: Descriptions of hotel activities are clear and engaging. Activities are categorized and easy to navigate.
 ---Book a Room Page: Users can view available rooms with photos, descriptions, and pricing. Booking form allows selection of dates, entry of guest details, and payment options (credit card, PayPal). Confirmation email is sent upon successful booking. Secure Payment Processing: Use SSL encryption and trusted payment gateways for secure transactions.
 ---Contact Page: Contact information (email address) is visible and clickable. Contact form is functional and sends inquiries to the hotel's email address. Google Maps integration shows the hotel's location accurately.
 ---Mobile Responsiveness: The website is responsive and displays correctly on various devices (desktops, tablets, smartphones). All features are accessible and functional on mobile devices.
-4)Non-Functional Requirements:
-a. Brief Description: 
+# 4)Non-Functional Requirements:
+# a. Brief Description: 
 Performance: The website should load quickly and respond promptly to user interactions, ensuring a smooth and seamless browsing experience.
 Usability: The website should be easy to navigate, with clear menus, intuitive interfaces, and straightforward booking processes. 
 Reliability: The website should be reliable and available 24/7, with minimal downtime or errors during booking and browsing sessions. Security: The website should adhere to high-security standards, ensuring the safety of user data, payment transactions, and sensitive information. 
 Scalability: The website should be scalable to accommodate increasing traffic, bookings, and data without compromising performance or user experience. 
-b. Acceptance Criteria: Performance: The website should have a page load time of under 5 seconds for optimal user experience. 
+# b. Acceptance Criteria: 
+Performance: The website should have a page load time of under 5 seconds for optimal user experience. 
 Usability: Users should be able to complete a booking in three simple steps or less, with clear instructions and prompts throughout the process.
 Reliability: The website should have a uptime of at least 99.9%, with minimal maintenance periods scheduled during off-peak hours. 
 Security: All payment transactions should be encrypted using SSL/TLS protocols, and user data should be stored securely with regular backups and data protection measures. 
 Scalability: The website should handle a simultaneous booking capacity of at least 60 users without performance degradation or system failures.
-5)Application Specifications: 
-a. Architecture: The architecture of the hotel booking website on the Wix platform follows a client-server model where the client (user's device/browser) interacts with Wix's servers hosting the website. 
+# 5)Application Specifications: 
+# a. Architecture: The architecture of the hotel booking website on the Wix platform follows a client-server model where the client (user's device/browser) interacts with Wix's servers hosting the website. 
 The key components include: Frontend Components: HTML, CSS, JavaScript, and Wix's proprietary editor for designing and rendering the user interface.
 Backend Components: Wix Code (Corvid), which allows for server-side scripting and database interactions within Wix's ecosystem. 
 Database: Wix's integrated database solution for storing user data, bookings, and other information securely. 
 Third-Party Integrations: Payment gateways (e.g., PayPal, Stripe) for secure payment processing, Google Maps for location services, and email services for communication.
 
+# <img width="390" alt="Capture PNG8" src="https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/256bd2c5-c0bd-4c00-ba60-fc271daeda82">
 b. Database Model: ---User Information Collection:
 
 Relationships: One-to-many relationship between User Information and Booking Information (User ID in Booking Information references User ID in User Information). Constraints: User ID: Unique, Required. Name, Email: Required. ---Booking Information Collection:
