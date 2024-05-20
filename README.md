@@ -290,7 +290,7 @@ Payment Success State: Description: State indicating successful completion of th
 # SE_Project_Phase4_Team5
 Phase IV Testing Hotel Seaside Seaside B&B (rapojulio1.wixsite.com)
 
-# During Phase 4, we have been focusing on testing our hotel booking website using manual methods due to the constraints of the Wix platform, which lacks direct access to code. While this presents challenges, we remain committed to ensuring the functionality and user experience meet our standards. Manual testing allows us to thoroughly examine each aspect of the website, including navigation, booking processes, payment gateways, and overall performance. By doing so, we aim to identify any potential issues or areas for improvement before deployment.
+During Phase 4, we have been focusing on testing our hotel booking website using manual methods due to the constraints of the Wix platform, which lacks direct access to code. While this presents challenges, we remain committed to ensuring the functionality and user experience meet our standards. Manual testing allows us to thoroughly examine each aspect of the website, including navigation, booking processes, payment gateways, and overall performance. By doing so, we aim to identify any potential issues or areas for improvement before deployment.
 
 # 1.Testing of Payment with Paypal
 https://youtu.be/8H-fGjyexsg?si=1e53bjh_SRlJG1fA Information received in Wix booking system
