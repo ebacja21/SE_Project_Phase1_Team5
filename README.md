@@ -293,7 +293,12 @@ Phase IV Testing Hotel Seaside Seaside B&B (rapojulio1.wixsite.com)
 During Phase 4, we have been focusing on testing our hotel booking website using manual methods due to the constraints of the Wix platform, which lacks direct access to code. While this presents challenges, we remain committed to ensuring the functionality and user experience meet our standards. Manual testing allows us to thoroughly examine each aspect of the website, including navigation, booking processes, payment gateways, and overall performance. By doing so, we aim to identify any potential issues or areas for improvement before deployment.
 
 # 1.Testing of Payment with Paypal
-https://youtu.be/8H-fGjyexsg?si=1e53bjh_SRlJG1fA Information received in Wix booking system
+https://youtu.be/8H-fGjyexsg?si=1e53bjh_SRlJG1fA
+Information received in Wix booking system
+<img width="468" alt="p26" src="https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/2608321d-b19b-4aa0-b647-b8a3d30d8d74">
+<img width="468" alt="p25" src="https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/7c352556-ea5b-40e3-bd0b-760da7aabccb">
+![p24](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/ee4b2a06-ff35-4206-9c32-1d5220e69c28)
+
 
 # 2.Test of Search Widget Objective: To verify that users can search for available rooms and dates directly from the home page using the search widget bar. 
 Steps: 
