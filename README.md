@@ -292,18 +292,47 @@ Phase IV Testing Hotel Seaside Seaside B&B (rapojulio1.wixsite.com)
 
 # During Phase 4, we have been focusing on testing our hotel booking website using manual methods due to the constraints of the Wix platform, which lacks direct access to code. While this presents challenges, we remain committed to ensuring the functionality and user experience meet our standards. Manual testing allows us to thoroughly examine each aspect of the website, including navigation, booking processes, payment gateways, and overall performance. By doing so, we aim to identify any potential issues or areas for improvement before deployment.
 
-1.Testing of Payment with Paypal https://youtu.be/8H-fGjyexsg?si=1e53bjh_SRlJG1fA Information received in Wix booking system
+# 1.Testing of Payment with Paypal
+https://youtu.be/8H-fGjyexsg?si=1e53bjh_SRlJG1fA Information received in Wix booking system
 
-2.Test of Search Widget Objective: To verify that users can search for available rooms and dates directly from the home page using the search widget bar. Steps: 1.Go to the home page. 2.Enter check-in and check-out dates, and select the number of rooms. 3.Initiate the search.
+# 2.Test of Search Widget Objective: To verify that users can search for available rooms and dates directly from the home page using the search widget bar. 
+Steps: 
+1.Go to the home page.
+
+2.Enter check-in and check-out dates, and select the number of rooms.
+
+3.Initiate the search.
+![p27](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/732b3763-bc7e-4236-9000-008c19114e2e)
 
 4.Verify that available rooms for the specified dates are displayed accurately.
+![p28](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/b6ffb020-7d56-40a2-bbc7-27ca222451b0)
 
-3.Test of Wix Chat - Budget Objective: Verify the functionality of the Wix Chat feature within the budget allocated. Steps: 1.Access the hotel booking website. 2.Initiate a chat session by clicking on the Wix Chat widget/button.
+# 3.Test of Wix Chat- Budget 
+Objective: Verify the functionality of the Wix Chat feature within the budget allocated. 
+Steps:
+1.Access the hotel booking website. 
+
+2.Initiate a chat session by clicking on the Wix Chat widget/button.
+![p29](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/e5c122c4-62d5-4077-b274-aec01129ffbf)
+![p30](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/f4da516d-7c06-4db3-b209-f1f9c9152056)
+
 
 3.We will be notified through email
+![p31](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/e59401ff-4553-4eee-aa51-a571ceddca00)
+
 
 4.We respond through the wix inbox
+![p32](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/23f0724a-8730-4b18-b443-041a4fd52d10)
 
-4.Test of Contact Us Form Objective: To verify the functionality of the "Contact Us" form on the hotel booking website. Steps: 1.Access the hotel booking website. 2.Locate the "Contact Us" section or page. 3.Fill out the contact form with valid information (name, email, message). 4.Submit the form.
 
+# 4.Test of Contact Us Form 
+Objective: To verify the functionality of the "Contact Us" form on the hotel booking website. 
+Steps: 
+1.Access the hotel booking website.
+2.Locate the "Contact Us" section or page.
+3.Fill out the contact form with valid information (name, email, message). 
+4.Submit the form.
 5.We receive the notification on our email
+![p34](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/3b83987d-c7c1-4dde-aa78-6efc03082615)
+![p33](https://github.com/ebacja21/SE_Project_Phase1_Team5/assets/161956592/7c175b25-fc77-44af-8a23-ffa5985701f1)
+
